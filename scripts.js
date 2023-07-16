@@ -5,5 +5,5 @@ function generateNumber(){
       
    const result = Math.floor(Math.random() * (max-min) + min);
 
-   alert(result)
+   alert(`O número sorteado foi: ${result}`)
 }
